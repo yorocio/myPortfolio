@@ -1,0 +1,54 @@
+import { Span } from "next/dist/trace";
+import Link from "next/link";
+import { FaGithub, FaLinkedin, FaMapMarkerAlt } from "react-icons/fa"
+import { SiGmail } from "react-icons/si";
+
+export default function Contact() {
+  return (
+    <section id="contact" className="space-y-4">
+      <h3 className="text-2xl font-semibold mb-2 text-[#eddde7]">Contacto</h3>
+
+      <p className="text-[#dfc2d4]">
+        Siempre abierta a colaborar en proyectos que generen impacto y crecimiento.
+      </p>
+
+     
+      <div className="flex justify-center items-center gap-6 text-[#dfc2d4] mt-10">
+      
+        <Link
+          href="mailto:rocioanriquez23@gmail.com"
+          className="hover:text-[#E2D5A6] transition-colors"
+          aria-label="Correo"
+        >
+          <SiGmail className="w-6 h-6" />
+        </Link>
+
+        <Link
+          href="https://github.com/yorocio"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:text-[#E2D5A6] transition-colors"
+          aria-label="GitHub"
+        >
+          <FaGithub className="w-6 h-6" />
+        </Link>
+
+        <Link
+          href="https://linkedin.com/in/rocioanriquez"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:text-[#E2D5A6] transition-colors"
+          aria-label="LinkedIn"
+        >
+          <FaLinkedin className="w-6 h-6" />
+        </Link>
+      </div>
+
+
+      <div className="flex justify-center items-center gap-2 text-[#dfc2d4] mt-4">
+        <FaMapMarkerAlt className="w-5 h-5" />
+        <span>Córdoba, Argentina</span>
+      </div>
+    </section>
+  );
+}
