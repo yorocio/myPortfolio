@@ -1,36 +1,28 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Mi Portafolio
 
-## Getting Started
+Este es mi **portafolio web**, desarrollado con **Next.js**, **React** y **Tailwind CSS**.
+El proyecto utiliza **TypeScript** para garantizar un código más seguro y mantenible, junto con **React Icons** para incorporar iconografía moderna y accesible.
+Además, integré **Material UI** para la implementación de modales interactivos, mejorando la experiencia del usuario con un diseño limpio y fluido.
 
-First, run the development server:
+**Ver el portafolio** proximamente
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### **Implementación de modal para los componentes del portafolio**
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. Instalar dependencias necesarias:  
+   ```bash
+   npm install @mui/material @emotion/react @emotion/styled
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+2. Elegir un modal desde la documentación oficial de *Material UI*:
+🔗 https://mui.com/material-ui/react-modal/
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+3. Copiar el ejemplo base del modal y pegarlo en un nuevo archivo del proyecto.
 
-## Learn More
+4. Personalizar el estilo del modal (colores, sombras, bordes) con la propiedad sx o el objeto style.
 
-To learn more about Next.js, take a look at the following resources:
+5. Reemplazar el botón de apertura por las funciones onClick de los ítems del Header.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+6. Configurar el contenido dinámico para mostrar cada componente dentro del modal (por ejemplo: About, Experience, Projects).
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+7. OPCIONAL. Ajustar el fondo del modal para usar efecto borroso con backdropFilter: "blur(8px)".
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+8. Verificar que cada ítem del Header abra correctamente su contenido en el modal
