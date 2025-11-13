@@ -14,6 +14,14 @@ export default function Projects() {
             React, Next.js y Tailwind CSS. Incluye filtrado de publicaciones y SSR para optimizar el
             rendimiento.
           </p>
+          <Link
+            href="https://huellasunidas.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gray-200 font-semibold"
+          >
+            Ver proyecto
+          </Link>
           <p className="mt-1 text-sm">Stack: React, Next.js, Tailwind CSS</p>
         </div>
 
@@ -27,7 +35,7 @@ export default function Projects() {
             href="https://escuela-de-vida-zen.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gray-200"
+            className="text-gray-200 font-semibold"
           >
             Ver proyecto
           </Link>
