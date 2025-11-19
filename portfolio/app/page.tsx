@@ -4,7 +4,7 @@ import Header from "../components/Header";
 import About from "../components/About";
 import Experience from "../components/Experience";
 import Projects from "../components/Projects";
-import Skills from "../components/Skills";
+/* import Skills from "../components/Skills"; */
 import Education from "../components/Education";
 import Contact from "@/components/Contact";
 
@@ -27,7 +27,7 @@ export default function Home() {
         <Experience />
         <Projects />
         <Education />
-        <Skills />
+      {/*   <Skills /> */}
       </div>
 
       {/* Modal (aparece solo cuando se hace clic en Header) */}
@@ -45,7 +45,7 @@ export default function Home() {
             {activeSection === "experience" && <Experience />}
             {activeSection === "projects" && <Projects />}
             {activeSection === "education" && <Education />}
-            {activeSection === "skills" && <Skills />}
+         {/*    {activeSection === "skills" && <Skills />} */}
           </div>
         </div>
       )}
