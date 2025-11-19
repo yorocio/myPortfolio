@@ -4,9 +4,9 @@ import { TiChevronRight } from "react-icons/ti";
 export default function Projects() {
   return (
     <section id="projects" className="space-y-8">
-      <h3 className="text-2xl font-semibold mb-6 text-[#eddde7]">Proyectos</h3>
+      <h3 className="text-2xl font-semibold mb-6 text-[#c7f89e] underline underline-offset-4">Proyectos</h3>
 
-      <div className="space-y-6 text-[#dfc2d4]">
+      <div className="space-y-6 text-[#e2fccb]">
         <div>
           <h4 className="text-xl font-medium flex items-center gap-2"><TiChevronRight />Huellas Unidas</h4>
           <p className="my-2">

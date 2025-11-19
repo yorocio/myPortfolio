@@ -3,9 +3,9 @@ import { TbPointFilled } from "react-icons/tb";
 export default function Skills() {
   return (
     <section id="skills" className="space-y-4">
-  <h3 className="text-2xl font-semibold mb-2 text-[#eddde7]">Tecnologías</h3>
+  <h3 className="text-2xl font-semibold mb-2 text-[#c7f89e] underline underline-offset-4">Tecnologías</h3>
 
-  <ul className="flex flex-wrap gap-6 text-[#dfc2d4]">
+  <ul className="flex flex-wrap gap-6 text-[#e2fccb]">
     <li className="flex items-center gap-1"> <TbPointFilled/>HTML</li>
     <li className="flex items-center gap-1"><TbPointFilled/>CSS</li>
     <li className="flex items-center gap-1"><TbPointFilled/>JavaScript</li>

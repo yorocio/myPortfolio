@@ -1,8 +1,8 @@
 export default function About() {
   return (
     <section id="about" className="space-y-4">
-      <h3 className="text-2xl font-semibold mb-2 text-[#eddde7]">Sobre mí</h3>
-      <div className="text-[#dfc2d4] text-lg">
+      <h3 className="text-2xl font-semibold mb-2 text-[#c7f89e] underline underline-offset-4">Sobre mí</h3>
+      <div className="text-[#e2fccb] text-lg">
         <p>
           Soy desarrolladora Frontend especializada en React, Next.js y Tailwind CSS. Me apasiona
           transformar ideas en experiencias digitales intuitivas, rápidas y accesibles. Disfruto
