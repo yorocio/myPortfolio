@@ -35,7 +35,7 @@ export default function CustomCursor() {
       }}
     >
       <div
-        className="w-80 h-80 rounded-full bg-gray-900/10 blur-2xl mix-blend-soft-light"
+        className="w-80 h-80 rounded-full bg-amber-50/5 blur-2xl mix-blend-soft-light"
         style={{
           transform: "translate(-50%, -50%)",
         }}
