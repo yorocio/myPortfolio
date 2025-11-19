@@ -14,7 +14,7 @@ export default function Home() {
   const closeModal = () => setActiveSection(null);
 
   return (
-    <div className="px-24 grid grid-cols-1 md:grid-cols-2 md:gap-6">
+    <div className="lg:px-24 px-3 md:px-10 grid grid-cols-1 md:grid-cols-2 md:gap-6">
       {/* Columna izquierda */}
       <div className="md:sticky md:top-0 md:h-screen flex flex-col justify-between">
         <Header onOpenSection={setActiveSection} />
@@ -33,10 +33,10 @@ export default function Home() {
       {/* Modal (aparece solo cuando se hace clic en Header) */}
       {activeSection && (
         <div className="fixed inset-0 backdrop-blur-md bg-white/5 flex justify-center items-center z-50">
-          <div className="bg-[#1c1c1c] p-8 rounded-2xl max-w-3xl w-full relative overflow-y-auto max-h-[90vh] shadow-lg border border-[#dfaafd]/30">
+          <div className="bg-[#1c1c1c] p-8 rounded-2xl max-w-3xl w-full relative overflow-y-auto max-h-[90vh] shadow-lg border border-[#c7f89e]/30">
             <button
               onClick={closeModal}
-              className="absolute top-4 right-4 text-[#dfaafd] hover:text-white text-xl"
+              className="absolute top-4 right-4 text-[#c7f89e] hover:text-white text-xl"
             >
               ✕
             </button>

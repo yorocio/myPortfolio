@@ -46,12 +46,12 @@ export default function Header({ onOpenSection }: HeaderProps) {
           <IoArrowForward /> Formación
         </button>
 
-         <button
+        {/*  <button
           onClick={() => onOpenSection("skills")}
           className="flex items-center gap-2 hover:text-[#a2f165] transition"
         >
           <IoArrowForward /> Tecnologias
-        </button>
+        </button> */}
       </div>
     </section>
   );

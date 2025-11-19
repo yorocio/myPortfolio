@@ -5,7 +5,7 @@ import { SiGmail } from "react-icons/si";
 
 export default function Contact() {
   return (
-    <section id="contact" className="space-y-4 mb-6">
+    <section id="contact" className="space-y-4 mb-6 px-3 md:px-1">
 
       <div className="flex justify-center items-center gap-6 text-[#e2fccb] mt-10">
       
